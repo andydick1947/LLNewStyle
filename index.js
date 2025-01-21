@@ -56,7 +56,7 @@ function tgle(){
    };
 
    function myintro1(){
-      const int1='<p id="myintro1" class="mytxt">INTRODUCTION</p>';
+      const int1='<p style="color: black;font-weight:bold;font-size:30px;">INTRODUCTION</p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -64,7 +64,7 @@ function tgle(){
 }
 
 function myintro(){
-      const int='<p id="myintro" class="mytxt"><br><br>The Bridge Club was founded around 1996 as the Monday Night Bridge Club, the first Director being Derek Branch. The Club continues to meet in the Llantonian Hall.  The aim of the club is to provide a regular facility for Duplicate Bridge allowing all pairs to play the same boards over the course of the evening. Ideally people attend in pairs although every attempt is made to cater for those without a regular partner.</p>';
+      const int='<p class="mytxt"><br>The Bridge Club was founded around 1996 as the Monday Night Bridge Club, the first Director being Derek Branch. The Club continues to meet in the Llantonian Hall.  The aim of the club is to provide a regular facility for Duplicate Bridge allowing all pairs to play the same boards over the course of the evening. Ideally people attend in pairs although every attempt is made to cater for those without a regular partner.</p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
@@ -72,7 +72,7 @@ function myintro(){
 }
 
 function myloc1(){
-   const loc1='<p class="mytxt">LOCATION<br></p>';
+   const loc1='<p style="color: black;font-weight:bold;font-size:30px;">LOCATION<br></p>';
    const div1=document.createElement("div");
    const mydiv1=document.getElementById("mainsect");
    mydiv1.appendChild(div1);
@@ -92,7 +92,7 @@ function myloc(){
    div1.innerHTML=loc1;
 }
 function mycttee1(){
-const cte1='<p class="mytxt">THE COMMITTEE</p>'
+const cte1='<p  style="color: black;font-weight:bold;font-size:30px;">THE COMMITTEE</p>'
 const div1=document.createElement("div");
 const mydiv1=document.getElementById("mainsect");
 mydiv1.appendChild(div1);
@@ -114,7 +114,7 @@ function mycttee(){
 }
 
 function mymeets1(){
-   const mts1='<p class="mytxt">MEETINGS<br></p>';
+   const mts1='<p style="color: black;font-weight:bold;font-size:30px;">MEETINGS<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -130,7 +130,7 @@ function mymeets(){
 }
 
 function myfees1(){
-   const fees1='<p class="mytxt">FEES<br></p>';
+   const fees1='<p style="color: black;font-weight:bold;font-size:30px;">FEES<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
