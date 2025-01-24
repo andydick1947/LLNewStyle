@@ -114,7 +114,7 @@ function mycttee(){
 }
 
 function mymeets1(){
-   const mts1='<p style="color: black;font-weight:bold;font-size:30px;">MEETINGS<br></p>';
+   const mts1='<p style="color: black;font-weight:bold;font-size:30px;">CLUB NIGHT<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
