@@ -122,7 +122,7 @@ function mymeets1(){
 }
 
 function mymeets(){
-   const mts='<p id="meets" class="mytxt">The club meets on Monday evenings at 6.45, with play starting at 7.00 and aiming to finish by 10.00. There are also two party evenings each year.<br><br>Play is conducted in a relaxed and friendly manner aiming to ensure an enjoyable evening for all participants. Advice / discussion is forthcoming to those requesting such, when time permits. This is usually at the end of that round or indeed the end of the evening.<br><br>Given sufficient notice our Secretary  to help those individuals seeking a partner for a particular evening. </p>';
+   const mts='<p id="meets" class="mytxt">The club meets on Monday evenings at 6.45, with play starting at 7.00 and aiming to finish by 10.00. There are also two party evenings each year.<br><br>Play is conducted in a relaxed and friendly manner aiming to ensure an enjoyable evening for all participants. Advice / discussion is forthcoming to those requesting such, when time permits. This is usually at the end of that round or indeed the end of the evening.<br><br>Given sufficient notice our Secretary  will help individuals to find a partner for a particular evening. </p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
